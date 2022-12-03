@@ -25,8 +25,8 @@ export default function App() {
           
             <Routes>
               {/* Route components in here */}
-              <Route path="/orders/new" element={<NewPost />} />
-              <Route path="/orders" element={<PostHistory />} />
+              <Route path="/posts/new" element={<NewPost />} />
+              <Route path="/posts" element={<PostHistory />} />
               
             </Routes>
           </>
